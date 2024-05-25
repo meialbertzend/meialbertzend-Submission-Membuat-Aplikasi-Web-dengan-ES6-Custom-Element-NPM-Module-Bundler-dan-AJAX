@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ], // Menggunakan tanda kutip tunggal
+        "semi": [
+            "error",
+            "always"
+        ], // Memeriksa selalu ada titik koma di akhir statement
+        "comma-dangle": [
+            "error",
+            "never"
+        ], // Memeriksa agar tidak ada koma ekstra di akhir objek atau array
+        "no-unused-vars": "warn" // Memberikan peringatan jika ada variabel yang tidak digunakan
+    }
+}

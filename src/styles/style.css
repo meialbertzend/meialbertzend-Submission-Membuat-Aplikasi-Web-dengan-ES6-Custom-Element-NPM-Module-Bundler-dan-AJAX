@@ -1,0 +1,10 @@
+body {
+    font-family: Helvetica;
+    background-color: aliceblue;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 38px auto;
+}
